@@ -4,7 +4,11 @@
 #
 #    pip-compile
 #
-numpy==1.18.1             # via wxpython
-pillow==7.0.0             # via wxpython
-six==1.14.0               # via wxpython
+numpy==1.18.1
+    # via wxpython
+pillow==8.1.1
+    # via wxpython
+six==1.14.0
+    # via wxpython
 wxpython==4.0.7.post2
+    # via -r requirements.in
